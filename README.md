@@ -1,4 +1,4 @@
-# app_admin_apijobinone
+# APP Open Scraper
 
 ## Project setup
 ```
