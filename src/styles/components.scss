@@ -1,0 +1,94 @@
+/******* FORM *****/
+
+form {
+    label {
+        margin-left: var(--m-5);
+        font-size: var(--fs-6);
+        & + input {
+            margin-top: calc(var(--m-6) / 2);
+        }
+    }
+
+    input {
+        margin: auto;
+        padding: var(--m-5);
+        border-radius: var(--m-6);
+        border: none;
+        color: var(--c-1-100);
+        box-shadow: 5px 5px 5px 0px var(--c-5-50);
+    }
+
+    input[type="submit"] {
+        background-color: var(--c-2-100);
+        color: var(--c-0-100);
+        font-weight: bold;
+
+        &:hover {
+            background-color: var(--c-4-100);
+        }
+    }
+
+    .form_title {
+        margin-bottom: var(--m-4);
+    }
+
+    .input_container {
+        margin-top: var(--m-5);
+    }
+
+    .submit_container {
+        margin: var(--m-4) auto var(--m-6) auto;
+    }
+
+    .form-info {
+        font-size: var(--fs-7);
+
+        &.error {
+            color: var(--c-3-100);
+        }
+    }
+
+    &.fw {
+        input {
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            width: 60%;
+        }
+    }
+
+    &.centered {
+        .form_title,
+        .form-info {
+            text-align: center;
+        }
+    }
+}
+
+.block {
+    display: flex;
+
+    &__rounded {
+        padding: var(--m-5);
+        border-radius: var(--m-5);
+        background-color: var(--c-1-25);
+    }
+
+    &__actions {
+        margin-left: auto;
+        order: 2;
+    }
+
+    &__title {
+        margin-bottom: var(--m-6);
+    }
+}
+
+.icone_inline {
+    .icone {
+        display: inline;
+        vertical-align: middle;
+        margin-right: var(--m-6);
+    }
+}

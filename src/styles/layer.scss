@@ -1,0 +1,24 @@
+.wrapper {
+    padding-left: var(--m-5);
+    padding-right: var(--m-5);
+    width: 100%;
+}
+
+.single_page_form{
+    margin-top: 10vh;    
+
+    .page_header {
+        width: 60%;
+        margin: 0 auto var(--m-3) auto;
+    
+        .logo {
+            margin-bottom: var(--m-3);
+        }
+    }
+}
+
+.single_page_app{
+    padding-top: 8vh; 
+    padding-left: var(--m-3);
+    padding-right: var(--m-3);
+}
